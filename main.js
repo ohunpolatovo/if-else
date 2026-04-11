@@ -4,7 +4,13 @@
 // else {   log("bu juft son emas");}
 
 //Boolean2. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring:"A >= 0 yoki B <-2"
-
+let A = +prompt("butun sonni kiriting");
+let B = +prompt("butun sonni kiriting");
+if (A >= 0 || B < -2) {
+  console.log("ha butun son");
+} else {
+  console.log("butun son emas");
+}
 //Boolean3. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "B soni A va C sonlari orasida yotadi".
 //Boolean4. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlari toq sonlar".
 //Boolean5. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning hech bo'lmaganda bittasi toq son".
