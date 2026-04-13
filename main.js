@@ -52,19 +52,21 @@
 //   else { console.log("a , b, c sonlari bittasi musbat emas");}
 //============================================
 //Boolean9. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlardan faqat ikkitasi musbat son".
-let A = +prompt("a sonini kiriting");
-let B = +prompt("b sonini kiriting");
-let C = +prompt("c sonini kiriting");
-if (
-  (A > 0 && B > 0 && C <= 0) ||
-  (B > 0 && C > 0 && A <= 0) ||
-  (A > 0 && B <= 0 && C > 0)
-) {
-  console.log("A B va C sonlaridan faqat ikkitasi musbat son ");
-} else {
-  console.log("A B C sonlaridan ikkitasi musbat emas");
-}
+//let A = +prompt("a sonini kiriting");
+//let B = +prompt("b sonini kiriting");
+//let C = +prompt("c sonini kiriting");if ((A > 0 && B > 0 && C <= 0) ||
+// (B > 0 && C > 0 && A <= 0) ||
+// (A > 0 && B <= 0 && C > 0))
+//  {console.log("A B va C sonlaridan faqat ikkitasi musbat son ");}
+//  else { console.log("A B C sonlaridan ikkitasi musbat emas");}
+//============================================
 //Boolean10. Musbat butun son berilgan. Jumlani rostlikka tekshiring: "Berilgan son ikki xonali juft son".
+let son = +prompt("ikki xonali son kiriting");
+if (son >= 10 && son <= 99 && son % 2 === 0) {
+  console.log("ikki honali juft son berilgan");
+} else {
+  console.log("juft son emas");
+}
 //Boolean11. Musbat butun son berilgan. Jumlani rostlikka tekshiring: "Berilgan son uch xonali toq".
 //Boolean12. Jumlani rostlikka tekshiring: "Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
 //Boolean13. Uch xonali son berilgan. Jumlani rostlikka tekshiring: “Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan".
