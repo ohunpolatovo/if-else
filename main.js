@@ -35,6 +35,12 @@
 //else {console.log("a va b sonlarning bittasi ham toqq son emas");}
 //============================================
 //Boolean7. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning har biri musbat".
+let A = +prompt("a sonini kiriting");
+let B = +prompt("b sonini kiriting");
+let C=+prompt('c sonini kiriting')
+if(A>0&&B>0&&C>0){console.log('a b va c sonlari har biri musbat ');}
+else{console.log('a b c sonlari musbat emas');
+}
 //Boolean8. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlaridan faqat bittasi musbat son".
 //Boolean9. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlardan faqat ikkitasi musbat son".
 //Boolean10. Musbat butun son berilgan. Jumlani rostlikka tekshiring: "Berilgan son ikki xonali juft son".
