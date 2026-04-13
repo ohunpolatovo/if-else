@@ -87,4 +87,21 @@
 //if (yuzlar < onliklar && onliklar < birliklar) {
 //console.log("ushbu sonlar ketma ket bolib joylashgaan");}
 //else {console.log("ushbu sonlar ketma ket bolib joylashmagan");}
-//Boolean14. Uch xonali son berilgan. Jumlani rostlikka tekshiring: "Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan yoki kamayuvchi ketma-ketlikka ega".
+//============================================
+//Boolean14. Uch xonali son berilgan. Jumlani rostlikka tekshiring: "Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan yoki kamayuvchi ketma-ketlikka ega.
+let son = +prompt("uch honali son kiriting");
+let yuzlar = Math.trunc(son / 100);
+let onliklar = Math.trunc((son / 10) % 10);
+let birliklar = son % 10;
+if (
+  (yuzlar < onliklar && onliklar < birliklar) ||
+  (yuzlar > onliklar && onliklar > birliklar)
+) {
+  console.log(
+    "Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan yoki kamayuvchi ketma-ketlikka ega",
+  );
+} else {
+  console.log(
+    "Ushbu sonning raqamlari ketama- ket osuvchi bolib joylashmagan yoki kamayuvchi ketma-ketlikka ega emas",
+  );
+}
