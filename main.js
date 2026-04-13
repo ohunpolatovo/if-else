@@ -10,16 +10,20 @@
 //else { console.log("butun son emas");}
 //============================================
 //Boolean3. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "B soni A va C sonlari orasida yotadi".
-let A = +prompt("a sonni kiriting");
-let B = +prompt("b sonini kiriting");
-let c = +prompt("c sonini kiriting");
-if ((A < B && B < c) || (A > B && B > c)) {
-  console.log("b soni a va c sonlari orasida ");
-} else {
-  console.log(" b  orasida emas");
-}
-
+//let A = +prompt("a sonni kiriting");
+//let B = +prompt("b sonini kiriting");
+//let c = +prompt("c sonini kiriting");
+//if ((A < B && B < c) || (A > B && B > c)) { console.log("b soni a va c sonlari orasida ");}
+//else {console.log(" b  orasida emas");}
+//============================================
 //Boolean4. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlari toq sonlar".
+let A = +prompt("a sonini kiriting");
+let B = +prompt("b sonini kiriting");
+if (A % 2 !== 0 && B % 2 !== 0) {
+  console.log("a va b sonlari toq sonlar ");
+} else {
+  console.log("a va b sonlari toq son emas");
+}
 //Boolean5. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning hech bo'lmaganda bittasi toq son".
 //Boolean6. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning faqat bittasi toq son".
 //Boolean7. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning har biri musbat".
