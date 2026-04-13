@@ -27,7 +27,13 @@
 //let B = +prompt("b sonini kiriting");
 //if (A % 2 !== 0 || B % 2 !== 0) { console.log("a va b sonlari  bittasi toq son ");}
 //else {console.log("a va b soni toq emas ");}
+//============================================
 //Boolean6. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning faqat bittasi toq son".
+//let A = +prompt("a sonini kiriting");
+//let B = +prompt("b sonini kiriting");
+//if ((A % 2 !== 0 && B % 2 === 0) || (A % 2 === 0 && B % 2 !== 0)) {console.log("a va b sonlarning bittasi toq son");}
+//else {console.log("a va b sonlarning bittasi ham toqq son emas");}
+//============================================
 //Boolean7. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning har biri musbat".
 //Boolean8. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlaridan faqat bittasi musbat son".
 //Boolean9. Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlardan faqat ikkitasi musbat son".
