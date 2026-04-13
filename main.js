@@ -66,12 +66,20 @@
 //else {console.log("juft son emas");}
 //===========================================
 //Boolean11. Musbat butun son berilgan. Jumlani rostlikka tekshiring: "Berilgan son uch xonali toq".
-let son = +prompt("uch honali son kiriting");
-if (son >= 100 && son <= 999 && son % 2 !== 0) {
-  console.log("uch honali toq son berilgan");
-} else {
-  console.log("uch honali toq son emas");
-}
+//let son = +prompt("uch honali son kiriting");
+//if (son >= 100 && son <= 999 && son % 2 !== 0) {
+// console.log("uch honali toq son berilgan");}
+//  else {console.log("uch honali toq son emas");}
+//============================================
 //Boolean12. Jumlani rostlikka tekshiring: "Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
+let A = +prompt("a sonini kiriting");
+let B = +prompt("b sonini kiriting");
+let C = +prompt("c sonini kiriting");
+if (A === -B || A === -C || B === -A || B === -C || C === -A || C === -B) {
+  console.log("berilgan sonlarning hech bolmaganda bitta jufti qarama qarshi");
+} else {
+  console.log("Berilgan sonlarning hech biri qarama qarshi emas");
+}
+
 //Boolean13. Uch xonali son berilgan. Jumlani rostlikka tekshiring: “Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan".
 //Boolean14. Uch xonali son berilgan. Jumlani rostlikka tekshiring: "Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan yoki kamayuvchi ketma-ketlikka ega".
