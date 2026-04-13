@@ -72,14 +72,19 @@
 //  else {console.log("uch honali toq son emas");}
 //============================================
 //Boolean12. Jumlani rostlikka tekshiring: "Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
-let A = +prompt("a sonini kiriting");
-let B = +prompt("b sonini kiriting");
-let C = +prompt("c sonini kiriting");
-if (A === -B || A === -C || B === -A || B === -C || C === -A || C === -B) {
-  console.log("berilgan sonlarning hech bolmaganda bitta jufti qarama qarshi");
-} else {
-  console.log("Berilgan sonlarning hech biri qarama qarshi emas");
-}
-
+//let A = +prompt("a sonini kiriting");
+//let B = +prompt("b sonini kiriting");
+//let C = +prompt("c sonini kiriting");
+//if (A === -B || A === -C || B === -A || B === -C || C === -A || C === -B) {
+//console.log("berilgan sonlarning hech bolmaganda bitta jufti qarama qarshi");}
+//else { console.log("Berilgan sonlarning hech biri qarama qarshi emas");}
+//============================================
 //Boolean13. Uch xonali son berilgan. Jumlani rostlikka tekshiring: “Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan".
+//let son = +prompt("uch honali son kiriting");
+//let yuzlar = Math.trunc(son / 100);
+//let onliklar = Math.trunc((son / 10) % 10);
+//let birliklar = son % 10;
+//if (yuzlar < onliklar && onliklar < birliklar) {
+//console.log("ushbu sonlar ketma ket bolib joylashgaan");}
+//else {console.log("ushbu sonlar ketma ket bolib joylashmagan");}
 //Boolean14. Uch xonali son berilgan. Jumlani rostlikka tekshiring: "Ushbu sonning raqamlari ketama- ket o'suvchi bo'lib joylashgan yoki kamayuvchi ketma-ketlikka ega".
